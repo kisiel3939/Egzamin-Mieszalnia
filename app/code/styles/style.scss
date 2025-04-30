@@ -1,0 +1,29 @@
+body {
+	font-family: georgia;
+	text-align: center;
+	background: lightsteelblue;
+}
+form {
+	padding-top: 20px;
+}
+main {
+	overflow-y: auto;
+	padding: 30px;
+	height: 400px;
+}
+footer {
+	background: orange;
+	padding: 10px;
+}
+img {
+	width: 80%;
+}
+table {
+	width: 70%;
+	margin: auto;
+	border: dotted 1px maroon;
+}
+tr:hover {
+	background: steelblue;
+	color: white;
+}
