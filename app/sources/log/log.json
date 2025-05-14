@@ -1,0 +1,22 @@
+{
+	"name": "example log",
+	"message": "form submited",
+	"context": {
+		"user values": {
+			"start date": ["2021-08-18"],
+			"end date": ["2021-12-12"],
+			"info": { "start date isDefault": true, "end date isDefault": true }
+		}
+	},
+	"level": 200,
+	"level_name": "INFO",
+	"channel": "default",
+	"datetime": "2025-05-14 14:55:58 -> Europe/Berlin(+02:00)",
+	"extra": {
+		"out of bounds": { "start date": false, "end date": false },
+		"date bounds": {
+			"start date": ["2021-08-18"],
+			"end date": ["2021-12-12"]
+		}
+	}
+}

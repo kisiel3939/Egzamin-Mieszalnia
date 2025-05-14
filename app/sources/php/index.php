@@ -1,3 +1,6 @@
+<?php
+include 'includes/log.php';
+?>
 <!DOCTYPE html>
 <html lang="pl">
 
@@ -12,7 +15,7 @@
 
 <body>
   <header>
-    <img src="../../res/img/baner.png" alt="Mieszalnia farb">
+    <img src="../../resources/img/baner.png" alt="Mieszalnia farb">
   </header>
   <div>
     <form action="" method="post">
