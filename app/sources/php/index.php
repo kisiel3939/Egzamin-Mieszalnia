@@ -1,5 +1,11 @@
 <?php
 include 'includes/log.php';
+session_start();
+
+if (!isset($_SESSION['user_id'])) {
+  header("Location: logowanie.php");
+  exit();
+}
 ?>
 <!DOCTYPE html>
 <html lang="pl">

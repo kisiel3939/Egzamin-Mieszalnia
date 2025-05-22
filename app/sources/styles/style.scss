@@ -27,3 +27,32 @@ tr:hover {
 	background: steelblue;
 	color: white;
 }
+body {
+	position: relative;
+}
+#main {
+	margin: 0;
+	width: 40%;
+	height: 30%;
+	background: rgb(50, 110, 160);
+	border-radius: 20px;
+	align-content: center;
+	padding: auto;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-ms-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+
+	form {
+		padding: 0;
+		p {
+			padding: 0;
+			margin: 0;
+		}
+		input {
+			margin: 5px;
+		}
+	}
+}
